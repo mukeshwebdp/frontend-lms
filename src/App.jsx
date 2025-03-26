@@ -1,12 +1,17 @@
 
 import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import Footer from './Components/Footer'
 
 function App() {
 
 
   return (
     <>
-      <h1 className='text-2xl'>Hello world</h1>
+      {/* <Routes> */}
+          {/* <Route path='' element=''/> */}
+      {/* </Routes> */}
+      <Footer />
     </>
   )
 }
